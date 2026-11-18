@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import csv
 
-URI = "mongodb+srv://pauljhan2003_db_user:beFqzKccsA7uL9R5@futbolcluster.tyfgflg.mongodb.net/FutbolDB?retryWrites=true&w=majority"
+URI = "mongodb+srv://pauljhan2003_db_user:***@futbolcluster.tyfgflg.mongodb.net/FutbolDB?retryWrites=true&w=majority"
 client = MongoClient(URI)
 db = client["FutbolDB"]
 partidos = db["partidos"]
